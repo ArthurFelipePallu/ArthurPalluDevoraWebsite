@@ -1,0 +1,31 @@
+.apdw-hc-div {
+  height: 80%;
+  width: 60px;
+}
+.apdw-hc-div a {
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  gap: 0px 0px;
+  grid-auto-rows: 70%;
+}
+.apdw-hc-img {
+  height: 100%;
+  width: 100%;
+}
+.apdw-hc-name {
+  font-size: larger;
+  color: #fff;
+}
+.apdw-hc-div a:hover {
+  -webkit-box-shadow: 0px 0px 10px 0px rgb(247, 246, 246);
+  -moz-box-shadow: 0px 0px 10px 0px rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px 0px rgb(255, 254, 253);
+  transition: 0.8s ease;
+  text-decoration: underline;
+}
+
+.apdw-hc-div a:link { 
+    text-decoration: none; 
+  } 

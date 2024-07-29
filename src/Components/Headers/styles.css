@@ -1,0 +1,17 @@
+
+
+.apdw-home-header{
+    height: 100px;
+    width: 100%;
+    box-shadow:  1px 1px 10px 1px #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.apdw-home-header-inside{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}

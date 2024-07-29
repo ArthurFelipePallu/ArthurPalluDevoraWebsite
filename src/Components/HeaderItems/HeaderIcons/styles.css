@@ -1,0 +1,28 @@
+
+
+
+
+.apdw-devora-logo{
+     height: 100%;
+     width: 100px;
+     display: flex;
+     align-items: center;
+ }
+
+ .apdw-devora-logo a{
+  height: 100px;
+  width: 100px;
+ }
+ .apdw-devora-logo a:link { 
+  text-decoration: none; 
+} 
+ .apdw-devora-logo img{
+  height: 100px;
+  width: 100px;
+  transition: transform .7s ease-in-out;
+  object-fit: contain;
+ }
+.apdw-devora-logo img:hover{
+     transform: rotate(360deg);
+     cursor: pointer;
+ }

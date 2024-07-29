@@ -1,0 +1,45 @@
+.apdw-slider-div {
+    margin-top: 40px;
+}
+
+.apdw-slideshow-container {
+  box-sizing: border-box;
+  max-height: 400px;
+  max-width: 60%;
+  position: relative;
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 10px 0px rgb(247, 246, 246);
+  -moz-box-shadow: 0px 0px 10px 0px rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px 0px rgb(255, 254, 253);
+}
+.apdw-slideshow-container img {
+  width: 100%;
+  max-height: 400px;
+}
+
+/* 
+  .mySlides {
+    display: none;
+  } */
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  word-wrap: break-word;
+}
