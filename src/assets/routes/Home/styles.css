@@ -1,1 +1,12 @@
 
+
+
+
+.apdw-infocard-container{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: var( --apdw-color-font-primary);
+    font-size: larger;
+}
