@@ -1,0 +1,129 @@
+
+.card-container{
+    position: relative;
+    width: calc(100% - 25px);
+    height:  calc(33.3% - 25px);
+    margin: 17px;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .card-container:hover,
+  .card-container:focus{
+    opacity: 1;
+  }
+  
+  .overlay{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    width: 50%;
+    height: 50%;
+    z-index: 1;
+    transform: translateZ(34px);
+  }
+  
+  .overlay:nth-of-type(1){
+    left: 0;
+    top: 0;
+  }
+  
+  .overlay:nth-of-type(2){
+    right: 0;
+    top: 0;
+  }
+  
+  .overlay:nth-of-type(3){
+    bottom: 0;
+    right: 0;
+  }
+  
+  .overlay:nth-of-type(4){
+    bottom: 0;
+    left: 0;
+  }
+  
+  .overlay:nth-of-type(1):hover ~ .card,
+  .overlay:nth-of-type(1):focus ~ .card{
+    transform-origin: right top;
+    transform: rotateX(3deg) rotateY(-3deg) translateZ(0);
+  }
+  
+  .overlay:nth-of-type(2):hover ~ .card,
+  .overlay:nth-of-type(2):focus ~ .card{
+    transform-origin: left top;
+    transform: rotateX(3deg) rotateY(3deg) translateZ(0);
+  }
+  
+  .overlay:nth-of-type(3):hover ~ .card,
+  .overlay:nth-of-type(3):focus ~ .card{
+    transform-origin: left bottom;
+    transform: rotateX(-3deg) rotateY(3deg) translateZ(0);
+  }
+  
+  .overlay:nth-of-type(4):hover ~ .card,
+  .overlay:nth-of-type(4):focus ~ .card{
+    transform-origin: right bottom;
+    transform: rotateX(-3deg) rotateY(-3deg) translateZ(0);
+  }
+  
+  .card{
+    border-radius: 5px;
+    height: 100%;
+    transition: all 300ms ease-out;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 0;
+    padding: 13px 21px;
+  }
+  
+  .card:before,
+  .card:after{
+    content: '';
+    position: absolute;
+    left:0;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+    transition: transform 300ms ease;
+    transform: scale(.98);
+  }
+  
+  .card:before{
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .card-container:hover .card:before,
+  .card-container:hover .card:after,
+  .card-container:focus .card:before,
+  .card-container:focus .card:after{
+    opacity: .6;
+    transform: scale(1);
+  }
+
+  
+.card > span{
+    font-size: 34px;
+    opacity: 0;
+    transform: translateX(-3px);
+    transition: all 300ms ease;
+  }
+  
+  .card-container:hover > .card > h4,
+  .card-container:focus > .card > h4{
+    transform: translateY(-13px);
+  }
+  
+  .card-container:hover > .card > span,
+  .card-container:focus > .card > span{
+   opacity: 1;
+      transform: translateX(3px);
+    animation: slideRight 300ms ease;
+  }

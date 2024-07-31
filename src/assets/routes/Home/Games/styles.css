@@ -1,0 +1,156 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400');
+
+.apdw-game-section{
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.apdw-game-container{
+    width: 100%;
+}
+p{color: black;}
+
+
+/* ////////////////////////////////////  OLD CODE  /////////////////////////////////////////////////*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+#study {
+    display: flex;
+    justify-content: space-around;
+}
+
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+/* * {
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  transform-style: preserve-3d;
+  margin: 0;
+  padding: 0;
+} */
+
+*:focus {
+  outline: none!important;
+}
+
+
+.game-container{
+  width:100vw;
+  height: 1600px;
+  display: flex;
+  flex-flow: row;
+  perspective: 1000px;
+  perspective-origin: center;
+}
+
+.col{
+  height:  100%;
+  transition: transform 600ms cubic-bezier(0.390, 0.575, 0.565, 1.000), opacity 300ms ease;
+  transform: translateZ(34px) scale(.98);
+  flex: 0 0 33.3333%;
+  position: relative;
+}
+
+.col:nth-of-type(1){
+  transform: rotateY(5deg) translateZ(34px) scale(.98);
+}
+
+.col:nth-of-type(3){
+  transform: rotateY(-5deg) translateZ(34px) scale(.98);
+}
+
+.col:hover,
+.col:focus{
+  transform: translateZ(34px);
+  transition: transform 300ms cubic-bezier(0.390, 0.575, 0.565, 1.000), opacity 300ms ease;
+ }
+
+ 
+.card:after{
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 50%,rgba(0,0,0,1) 100%);
+} 
+
+h4{
+  text-align: left;
+  font-size: 18px;
+  font-weight:400;
+  transform: translateY(5px);
+  transition: transform 450ms cubic-bezier(0.390, 0.575, 0.565, 1.000);
+  max-width: 320px;
+  outline: 1px solid transparent;
+}
+
+.overlay:hover ~ .card h4,
+.overlay:focus ~ .card h4{
+  transform: translateZ(144px);
+}
+
+
+@media (max-width: 768px){
+  body{
+    overflow-y: scroll;
+  }
+  h4{
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 540px){
+  .game-container{
+    flex-flow: column;
+    perspective: none;
+  }
+
+  .col:nth-of-type(1),
+  .col:nth-of-type(2),
+  .col:nth-of-type(3),
+  .col:hover{
+      transform: none;
+  }
+
+  h4{
+    padding-bottom: 8px;
+    font-size: 18px;
+  }
+
+.card > span{
+      display: none;
+  }
+}
+
+@media (max-height: 599px){
+.card > span{
+      display: none;
+  }
+}
+
+@media (max-width: 860px) and (max-height: 540px){
+  h4{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 620px) and (max-height: 540px){
+  h4{
+    font-size: 13px;
+  }
+}
+
+/*-----------------------------------------Fim Game Card --------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/

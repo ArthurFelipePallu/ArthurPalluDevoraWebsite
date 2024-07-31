@@ -5,13 +5,15 @@ import HeaderIcon from "../HeaderItems/HeaderIcons";
 
 export default function Header() {
   return (
-    <div className="apdw-home-header">
-      <div className="apdw-home-header-inside">
-        <HeaderIcon/>
-        {HeaderContactService.findAll().map((contact) => (
-          <HeaderContact key={contact.id} contactProp={contact} />
-        ))}
+    <header>
+      <div className="apdw-home-header">
+        <div className="apdw-home-header-inside">
+          <HeaderIcon />
+          {HeaderContactService.findAll().map((contact) => (
+            <HeaderContact key={contact.id} contactProp={contact} />
+          ))}
+        </div>
       </div>
-    </div>
+    </header>
   );
 }
