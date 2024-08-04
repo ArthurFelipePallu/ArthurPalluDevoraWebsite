@@ -12,7 +12,10 @@
     width: 90%;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content:space-between;
+
+}
+.apdw-header-leftmost{
 
 }
 .apdw-header-icons{
@@ -20,6 +23,8 @@
     align-items: center;
     justify-content: center;
 }
+
+
 /* 
 .barra-pesquisa {
     width: 600px;

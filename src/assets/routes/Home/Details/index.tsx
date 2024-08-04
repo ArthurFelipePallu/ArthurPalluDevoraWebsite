@@ -4,7 +4,7 @@ import * as GamesInfo from "../../../services/GameCardsInfo-service";
 import DetailsContainer from "../../../../Components/DetailsContainer";
 
 export default function Details() {
-  const params = useParams();
+    const params = useParams();
     const detail = GamesInfo.findById(Number(params.detailsId));
 
 
@@ -14,6 +14,7 @@ export default function Details() {
         <section id="apdw-detail" className="">
             {detail && <DetailsContainer detail={detail}/>}
         </section>
+        
       </main>
     </>
   );

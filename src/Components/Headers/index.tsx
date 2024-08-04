@@ -2,6 +2,7 @@ import HeaderContact from "../HeaderItems/HeaderContacts";
 import "./styles.css";
 import * as HeaderContactService from "../../assets/services/HeaderContactInfo-service";
 import HeaderIcon from "../HeaderItems/HeaderIcons";
+import GoBackButton from "../HeaderItems/GoBackButton";
 
 export default function Header() {
   return (
@@ -31,7 +32,11 @@ export default function Header() {
               🗙{" "}
             </button>
           </form> */}
+          <div className="apdw-header-leftmost">
+            <GoBackButton/>
+          </div>
           <div className="apdw-header-icons">
+            
             <HeaderIcon />
             {HeaderContactService.findAll().map((contact) => (
               <HeaderContact key={contact.id} contactProp={contact} />
