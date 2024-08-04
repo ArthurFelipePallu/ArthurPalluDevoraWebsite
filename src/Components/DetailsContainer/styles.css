@@ -1,0 +1,31 @@
+
+.apdw-detail-container{
+    margin: auto;
+    margin-top: 60px;
+    width: 80%;
+    height: 500px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.apdw-detail-container img{
+    max-height: 300px;
+    margin-left: 20px;
+}
+
+.apdw-detail-container article{
+    text-align: center;
+    margin: 30px;
+}
+.apdw-detail-container article h1{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.apdw-detail-container article h2{
+    margin-top: 15px;
+}
+.apdw-detail-container article h3{
+    text-align: left;
+    margin-top: 15px;
+}

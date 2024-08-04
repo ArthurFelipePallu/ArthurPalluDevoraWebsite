@@ -14,7 +14,8 @@ const GameCardInfos: GameCardContainerDTO[] = [
     imgUrl: "studying.gif",
     link: "google.com",
     name: "Chess Champions",
-    text: "First Real Game of Devora Studios",
+    intro:"First Real Game of Devora Studios",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     bgcolor:"#f00"
   },
   {
@@ -22,6 +23,7 @@ const GameCardInfos: GameCardContainerDTO[] = [
     imgUrl: "pucpr.png",
     link: "google.com",
     name: "Chess Champions",
+    intro:"First Real Game of Devora Studios",
     text: "JUST ANOTHER TEST",
     bgcolor:"#00f"
   },
@@ -30,6 +32,7 @@ const GameCardInfos: GameCardContainerDTO[] = [
     imgUrl: "working.gif",
     link: "google.com",
     name: "Chess Champions",
+    intro:"First Real Game of Devora Studios",
     text: "tO SEE IF ITS WORKING",
     bgcolor:"#0f0"
   },
@@ -38,6 +41,7 @@ const GameCardInfos: GameCardContainerDTO[] = [
     imgUrl: "bookwriting.gif",
     link: "google.com",
     name: "Chess Champions",
+    intro:"First Real Game of Devora Studios",
     text: "First Real Game of Devora Studios",
     bgcolor:"#f00"
   },
@@ -46,6 +50,7 @@ const GameCardInfos: GameCardContainerDTO[] = [
     imgUrl: "code.gif",
     link: "google.com",
     name: "Chess Champions",
+    intro:"First Real Game of Devora Studios",
     text: "JUST ANOTHER TEST",
     bgcolor:"#00f"
   },
@@ -54,6 +59,7 @@ const GameCardInfos: GameCardContainerDTO[] = [
     imgUrl: "DevSuperior.png",
     link: "google.com",
     name: "Chess Champions",
+    intro:"First Real Game of Devora Studios",
     text: "tO SEE IF ITS WORKING",
     bgcolor:"#0f0"
   },
@@ -62,6 +68,7 @@ const GameCardInfos: GameCardContainerDTO[] = [
     imgUrl: "news1.jpg",
     link: "google.com",
     name: "Chess Champions",
+    intro:"First Real Game of Devora Studios",
     text: "First Real Game of Devora Studios",
     bgcolor:"#f00"
   },
@@ -70,6 +77,7 @@ const GameCardInfos: GameCardContainerDTO[] = [
     imgUrl: "working2.gif",
     link: "google.com",
     name: "Chess Champions",
+    intro:"First Real Game of Devora Studios",
     text: "JUST ANOTHER TEST",
     bgcolor:"#00f"
   },
@@ -78,6 +86,7 @@ const GameCardInfos: GameCardContainerDTO[] = [
     imgUrl: "star-slideout-bg.jpg",
     link: "google.com",
     name: "Chess Champions",
+    intro:"First Real Game of Devora Studios",
     text: "tO SEE IF ITS WORKING",
     bgcolor:"#0f0"
   },

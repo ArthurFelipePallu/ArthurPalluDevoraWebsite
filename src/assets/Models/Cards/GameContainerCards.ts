@@ -3,6 +3,7 @@ export type GameCardContainerDTO={
     imgUrl:string;
     link:string;
     name:string;
+    intro:string;
     text:string;
     bgcolor:string;
 }

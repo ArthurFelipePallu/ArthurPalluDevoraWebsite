@@ -27,3 +27,9 @@ body {
   background-size: 100%;
   background-position: top center;
 }
+
+
+.apdw-link-style{
+  color: inherit;
+  text-decoration: inherit;
+}
